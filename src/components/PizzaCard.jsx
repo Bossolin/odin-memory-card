@@ -1,15 +1,8 @@
 import React from "react";
 
-const PizzaCard = ({ img, clickedImages, setClickedImages, setBestScore }) => {
-  const handleClick = () => {
-    if (clickedImages.find((image) => image === img)) {
-      setBestScore(clickedImages.length);
-      setClickedImages([]);
-    } else setClickedImages((prevState) => [...prevState, img]);
-  };
-
+const PizzaCard = ({ img, handleClick }) => {
   return (
-    <div className="pizza-card" onClick={handleClick}>
+    <div className="pizza-card" onClick={() => handleClick(img)}>
       <img src={`./img/${img}.png`} alt={img} />
       <p>{img}</p>
     </div>
