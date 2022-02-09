@@ -5,14 +5,18 @@ import PizzaCard from "./components/PizzaCard";
 
 function App() {
   const [images, setImages] = useState([
-    "Arcobaleno",
     "Autunno",
     "Bresaola",
     "Calabrese",
     "Calzone",
-    "Carnivora Bianca",
     "Carnivora",
     "Inferno",
+    "Margherita Sbagliata",
+    "Parma Bianca",
+    "Prosciutto Cotto",
+    "Quattro Stagioni",
+    "Siciliana",
+    "Vegetariana",
   ]);
   const [clickedImages, setClickedImages] = useState([]);
   const [bestScore, setBestScore] = useState(0);
@@ -44,6 +48,7 @@ function App() {
           <PizzaCard key={img} img={img} handleClick={handleClick} />
         ))}
       </div>
+      <div className="footer">Footer Info</div>
     </div>
   );
 }
