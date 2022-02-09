@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/odin-memory-card/static/css/main.2250aee7.css",
+    "main.js": "/odin-memory-card/static/js/main.647813ed.js",
+    "index.html": "/odin-memory-card/index.html",
+    "main.2250aee7.css.map": "/odin-memory-card/static/css/main.2250aee7.css.map",
+    "main.647813ed.js.map": "/odin-memory-card/static/js/main.647813ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2250aee7.css",
+    "static/js/main.647813ed.js"
+  ]
+}
